@@ -1,0 +1,53 @@
+.tasks {
+   padding: 32px;
+   display: flex;
+   column-gap: 25px;
+    margin: 0 auto;
+}
+
+.task {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 100px;
+    background: #ffffff;
+    column-gap: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 3px 9px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 3px 9px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 3px 9px 0px rgba(34, 60, 80, 0.2);
+}
+
+.taskSvg {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.taskSvg.taskSvgReady {
+    background: #D1FFE1;
+}
+
+.taskSvg.taskSvgInWork {
+    background-color: #FFE8D9;
+}
+.taskSvg.taskSvgRework {
+    background-color: #FFDEDE;
+}
+
+.taskTextTitle {
+    color: #B9B9B9;
+    font-size: 17px;
+}
+
+.taskTextQuantity {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Sidebar from './pages/DashboardPage/components/Sidebar'
+import Sidebar from './pages/DashboardPage/components/Sidebar/Sidebar'
+import TasksStatus from './pages/DashboardPage/components/TasksStatus/TasksStatus'
 
 function App() {
   return (
     <>
-      <Sidebar />
+      <div className="main">
+        <Sidebar />
+        <TasksStatus />
+      </div>
+      
     </>
   )
 }
