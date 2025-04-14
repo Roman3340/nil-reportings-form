@@ -1,0 +1,65 @@
+.side {
+    width: 315px;
+    padding-top: 20px;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    height: 100vh;
+}
+
+/* .logo {
+    border-bottom: 1px solid #F1F5F9;
+} */
+
+.menu {
+    margin-top: 30px;
+}
+
+.tasks {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.task {
+    font-size: 21px;
+}
+
+.taskSvg {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.taskText {
+    display: inline-block;
+}
+
+.taskLink {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    border-radius: 10px;
+    column-gap: 10px;
+    padding: 15px;
+    width: 100%;
+    background-color: #fff;
+    color: rgb(72, 72, 72);
+}
+
+/* .taskButton:hover,
+.taskButton:focus {
+    border: none;
+    outline: none;
+} */
+
+.taskLink:hover {
+    background-color: rgba(0, 119, 255, 0.074);
+}
+
+.tasks li:first-child .taskLink:hover svg {
+    fill: #0079FF;
+}
+.taskLink:hover svg path {
+    stroke: #0079FF;
+}
