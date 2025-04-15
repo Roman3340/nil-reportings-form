@@ -1,14 +1,18 @@
 
 import './App.css'
-import Sidebar from './pages/DashboardPage/components/Sidebar/Sidebar'
-import TasksStatus from './pages/DashboardPage/components/TasksStatus/TasksStatus'
+import Sidebar from './pages/AdminPage/Dashboard/components/Sidebar/Sidebar'
+import TasksStatus from './pages/AdminPage/Dashboard/components/TasksStatus/TasksStatus'
+import Tasks from './pages/AdminPage/Dashboard/components/Tasks/Tasks'
 
 function App() {
   return (
     <>
       <div className="main">
         <Sidebar />
-        <TasksStatus />
+        <div className="rightPart">
+          <TasksStatus />
+          <Tasks />
+        </div>
       </div>
       
     </>

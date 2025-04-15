@@ -1,2 +1,2 @@
 export { AuthPage } from './AuthPage';
-export { DashboardPage } from './DashboardPage';
+export { AdminPage } from './AdminPage/Dashboard';

@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-export function TasksStatus () {
+function TasksStatus () {
 
     return (
         <div className={styles.tasks}>

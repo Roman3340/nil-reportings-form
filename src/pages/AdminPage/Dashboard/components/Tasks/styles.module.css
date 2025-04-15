@@ -1,0 +1,27 @@
+.tasks {
+    padding: 32px;
+   display: flex;
+}
+
+.tasksHeader {
+    background: #fff;
+    display: flex;
+    padding: 29px 24px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tasksRightPart {
+    display: flex;
+}
+
+.tasksfiltres,
+.tasksChooseDate,
+.tasksSearch {
+    display: flex;
+}
+
+.tasksChooseDateSvg,
+.tasksFiltresSvg {
+    display: inline-block;
+}

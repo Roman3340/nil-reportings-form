@@ -1,7 +1,7 @@
 
 import styles from './styles.module.css';
 
-export function Sidebar () {
+function Sidebar () {
 
     return (
         <div className={styles.side}>
